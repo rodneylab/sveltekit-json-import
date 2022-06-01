@@ -1,6 +1,8 @@
 {
   "name": "sveltekit-json-import",
   "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "description": "SvelteKit JSON import: how you can use data provided from business apps and their sources directly in your Svelte site, thanks to Vite.",
   "scripts": {
     "dev": "svelte-kit dev -p 3000",
     "build": "svelte-kit build",
@@ -26,5 +28,12 @@
     "stylelint-config-standard": "^25.0.0",
     "svelte": "^3.48.0"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodneylab/sveltekit-json-import"
+  },
+  "bugs": {
+    "url": "https://github.com/rodneylab/sveltekit-json-import/issues"
+  }
 }
