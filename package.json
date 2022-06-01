@@ -9,6 +9,7 @@
     "preview": "svelte-kit preview -p 3000",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "lint:css": "stylelint \"src/**/*.{css,svelte}\"",
+    "check": "svelte-check --tsconfig ./jsconfig.json",
     "prettier:check": "prettier --check --plugin-search-dir=. .",
     "format": "prettier --ignore-path .prettierignore --write --plugin-search-dir=. ."
   },
@@ -26,7 +27,8 @@
     "stylelint": "^14.8.5",
     "stylelint-config-recommended": "^7.0.0",
     "stylelint-config-standard": "^25.0.0",
-    "svelte": "^3.48.0"
+    "svelte": "^3.48.0",
+    "svelte-check": "^2.7.1"
   },
   "type": "module",
   "repository": {
