@@ -9,14 +9,14 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@fontsource/open-sans": "^4.5.8",
+    "@fontsource/open-sans": "^4.5.10",
     "@sveltejs/kit": "next",
-    "eslint": "^8.13.0",
+    "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^3.4.1",
+    "eslint-plugin-svelte3": "^4.0.0",
     "prettier": "^2.6.2",
     "prettier-plugin-svelte": "^2.7.0",
-    "svelte": "^3.47.0"
+    "svelte": "^3.48.0"
   },
   "type": "module"
 }
