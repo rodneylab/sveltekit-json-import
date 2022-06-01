@@ -49,7 +49,7 @@
 
 <style>
   :global(html) {
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     background: #ffca3a;
   }
   h1 {
@@ -57,6 +57,8 @@
   }
   h2 {
     font-size: 1.953rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
   }
   h1,
   h2 {
@@ -74,10 +76,6 @@
   }
   .sponsors {
     margin-bottom: 3rem;
-  }
-  h2 {
-    padding-top: 2rem;
-    padding-left: 3rem;
   }
   .scrolling-text {
     height: 3rem;
@@ -125,6 +123,9 @@
 
   .person h2 {
     padding-left: 0;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 1.563rem;
   }
 
   .person h2,
@@ -132,11 +133,6 @@
     margin-top: 0.25rem;
   }
 
-  .person h2 {
-    margin-bottom: 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 1.563rem;
-  }
   @media (max-width: 768px) {
     .people {
       grid-template-columns: 1fr;
