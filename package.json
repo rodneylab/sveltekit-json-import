@@ -4,9 +4,9 @@
   "license": "BSD-3-Clause",
   "description": "SvelteKit JSON import: how you can use data provided from business apps and their sources directly in your Svelte site, thanks to Vite.",
   "scripts": {
-    "dev": "svelte-kit dev -p 3000",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview -p 3000",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "lint:css": "stylelint \"src/**/*.{css,svelte}\"",
     "check": "svelte-check --tsconfig ./jsconfig.json",
@@ -14,21 +14,22 @@
     "format": "prettier --ignore-path .prettierignore --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.2",
-    "@fontsource/open-sans": "^4.5.10",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@fontsource/open-sans": "^4.5.11",
     "@sveltejs/kit": "next",
-    "eslint": "^8.18.0",
+    "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
     "husky": "^8.0.1",
-    "postcss-html": "^1.4.1",
+    "postcss-html": "^1.5.0",
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
-    "stylelint": "^14.9.1",
-    "stylelint-config-recommended": "^8.0.0",
-    "stylelint-config-standard": "^26.0.0",
-    "svelte": "^3.48.0",
-    "svelte-check": "^2.7.2"
+    "stylelint": "^14.10.0",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard": "^27.0.0",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.1",
+    "vite": "^3.0.8"
   },
   "type": "module",
   "repository": {
@@ -37,5 +38,8 @@
   },
   "bugs": {
     "url": "https://github.com/rodneylab/sveltekit-json-import/issues"
+  },
+  "peerDependencies": {
+    "vite": "^3.0.8"
   }
 }
