@@ -1,33 +1,33 @@
 {
-  "sponsors": [
-    { "name": "Brightdog" },
-    { "name": "Dynabox" },
-    { "name": "Myworks" },
-    { "name": "Dynazzy" },
-    { "name": "Shuffledrive" },
-    { "name": "Thoughtbeat" },
-    { "name": "Demizz" },
-    { "name": "Tambee" },
-    { "name": "Quinu" },
-    { "name": "JumpXS" },
-    { "name": "Mymm" },
-    { "name": "Shuffledrive" },
-    { "name": "InnoZ" },
-    { "name": "Oba" },
-    { "name": "Oodoo" },
-    { "name": "Brainbox" },
-    { "name": "Latz" },
-    { "name": "Yabox" },
-    { "name": "Meeveo" },
-    { "name": "Bluejam" }
-  ],
-  "clients": [
-    { "name": "Meevee", "sector": "Technology" },
-    { "name": "Leexo", "sector": "Miscellaneous" },
-    { "name": "Yombu", "sector": "Finance" },
-    { "name": "Buzzdog", "sector": "n/a" },
-    { "name": "Thoughtsphere", "sector": "Basic Industries" },
-    { "name": "Jabberstorm", "sector": "Consumer Durables" },
-    { "name": "LiveZ", "sector": "n/a" }
-  ]
+	"sponsors": [
+		{ "name": "Brightdog" },
+		{ "name": "Dynabox" },
+		{ "name": "Myworks" },
+		{ "name": "Dynazzy" },
+		{ "name": "Shuffledrive" },
+		{ "name": "Thoughtbeat" },
+		{ "name": "Demizz" },
+		{ "name": "Tambee" },
+		{ "name": "Quinu" },
+		{ "name": "JumpXS" },
+		{ "name": "Mymm" },
+		{ "name": "Shuffledrive" },
+		{ "name": "InnoZ" },
+		{ "name": "Oba" },
+		{ "name": "Oodoo" },
+		{ "name": "Brainbox" },
+		{ "name": "Latz" },
+		{ "name": "Yabox" },
+		{ "name": "Meeveo" },
+		{ "name": "Bluejam" }
+	],
+	"clients": [
+		{ "name": "Meevee", "sector": "Technology" },
+		{ "name": "Leexo", "sector": "Miscellaneous" },
+		{ "name": "Yombu", "sector": "Finance" },
+		{ "name": "Buzzdog", "sector": "n/a" },
+		{ "name": "Thoughtsphere", "sector": "Basic Industries" },
+		{ "name": "Jabberstorm", "sector": "Consumer Durables" },
+		{ "name": "LiveZ", "sector": "n/a" }
+	]
 }
