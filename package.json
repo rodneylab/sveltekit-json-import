@@ -14,23 +14,23 @@
 		"format": "prettier --ignore-path .prettierignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@commitlint/config-conventional": "^17.0.3",
-		"@fontsource/open-sans": "^4.5.11",
+		"@commitlint/config-conventional": "^17.1.0",
+		"@fontsource/open-sans": "^4.5.12",
 		"@sveltejs/kit": "next",
-		"commitlint": "^17.0.3",
-		"eslint": "^8.22.0",
+		"commitlint": "^17.1.2",
+		"eslint": "^8.24.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"husky": "^8.0.1",
 		"postcss-html": "^1.5.0",
 		"prettier": "^2.7.1",
-		"prettier-plugin-svelte": "^2.7.0",
-		"stylelint": "^14.10.0",
+		"prettier-plugin-svelte": "^2.7.1",
+		"stylelint": "^14.13.0",
 		"stylelint-config-recommended": "^9.0.0",
 		"stylelint-config-standard": "^27.0.0",
-		"svelte": "^3.49.0",
-		"svelte-check": "^2.8.1",
-		"vite": "^3.0.8"
+		"svelte": "^3.50.1",
+		"svelte-check": "^2.9.1",
+		"vite": "^3.1.4"
 	},
 	"type": "module",
 	"repository": {
