@@ -6,7 +6,7 @@
 			"$lib/*": ["src/lib/*"]
 		},
 		"resolveJsonModule": true,
-		"esModueInterop": true
+		"esModuleInterop": true
 	},
 	"extends": "./.svelte-kit/tsconfig.json",
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
