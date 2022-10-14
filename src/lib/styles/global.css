@@ -1,0 +1,16 @@
+html {
+	font-family: Open Sans;
+	background: #ffca3a;
+}
+h1 {
+	font-size: 3.052rem;
+}
+h2 {
+	font-size: 1.953rem;
+	padding-top: 2rem;
+	padding-left: 3rem;
+}
+h1,
+h2 {
+	color: #395c6b;
+}

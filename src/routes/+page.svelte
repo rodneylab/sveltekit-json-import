@@ -5,6 +5,7 @@
 	// import root level object as a named import
 	import { sponsors } from '$lib/data/clientsSponsors.json';
 
+	import '$lib/styles/global.css';
 	import '@fontsource/open-sans/400.css';
 	import '@fontsource/open-sans/700.css';
 
@@ -48,22 +49,6 @@
 </main>
 
 <style>
-	:global(html) {
-		font-family: Open Sans;
-		background: #ffca3a;
-	}
-	h1 {
-		font-size: 3.052rem;
-	}
-	h2 {
-		font-size: 1.953rem;
-		padding-top: 2rem;
-		padding-left: 3rem;
-	}
-	h1,
-	h2 {
-		color: #395c6b;
-	}
 	.heading {
 		display: flex;
 		justify-content: center;
