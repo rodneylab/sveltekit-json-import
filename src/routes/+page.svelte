@@ -20,7 +20,6 @@
 
 <svelte:head>
 	<title>About Us</title>
-	<html lang="en-GB" />
 </svelte:head>
 
 <header class="heading">
