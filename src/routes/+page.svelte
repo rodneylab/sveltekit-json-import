@@ -1,10 +1,8 @@
 <script>
-	// import entire JSON file as a default import
-	import people from '$lib/data/people.json';
-
 	// import root level object as a named import
 	import { sponsors } from '$lib/data/clientsSponsors.json';
-
+	// import entire JSON file as a default import
+	import people from '$lib/data/people.json';
 	import '$lib/styles/global.css';
 	import '@fontsource/open-sans/400.css';
 	import '@fontsource/open-sans/700.css';
